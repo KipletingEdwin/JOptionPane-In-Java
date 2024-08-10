@@ -14,6 +14,7 @@ public class Main {
         //JOptionPane.showMessageDialog(null,"This is some useless info", "title",JOptionPane.ERROR_MESSAGE);
 
         JOptionPane.showConfirmDialog(null,"Bro,do you even code?","This is my title",JOptionPane.YES_NO_CANCEL_OPTION);
+        JOptionPane.showInputDialog("What is your name?");
 
     }
 }
