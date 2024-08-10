@@ -17,7 +17,14 @@ public class Main {
         String[] responses = {"No, you're awesome","thank you","*blush*"};
         ImageIcon icon = new ImageIcon("smile.jpeg");
 
-        JOptionPane.showOptionDialog(null,"You are awesome!","secret message",JOptionPane.YES_NO_CANCEL_OPTION,JOptionPane.INFORMATION_MESSAGE,icon,null,0);
+        JOptionPane.showOptionDialog(null,
+                "You are awesome!",
+                "secret message",
+                JOptionPane.YES_NO_CANCEL_OPTION,
+                JOptionPane.INFORMATION_MESSAGE,
+                icon,
+                responses,
+                0);
 
 
     }
