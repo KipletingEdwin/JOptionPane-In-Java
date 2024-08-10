@@ -1,7 +1,4 @@
 import javax.swing.*;
-
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
         //JOptionPane =  pop up a standard dialog box that prompts the user for a value
@@ -14,8 +11,10 @@ public class Main {
         //JOptionPane.showMessageDialog(null,"This is some useless info", "title",JOptionPane.ERROR_MESSAGE);
 
         //JOptionPane.showConfirmDialog(null,"Bro,do you even code?","This is my title",JOptionPane.YES_NO_CANCEL_OPTION);
-        String  name = JOptionPane.showInputDialog("What is your name?");
-        System.out.println("Hello "+ name);
+       // String  name = JOptionPane.showInputDialog("What is your name?");
+       // System.out.println("Hello "+ name);
+
+        JOptionPane.showOptionDialog(null,"You are awesome!","secret message",JOptionPane.YES_NO_CANCEL_OPTION,JOptionPane.INFORMATION_MESSAGE,null,null,0);
 
 
     }
