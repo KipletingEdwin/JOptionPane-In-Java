@@ -14,7 +14,10 @@ public class Main {
        // String  name = JOptionPane.showInputDialog("What is your name?");
        // System.out.println("Hello "+ name);
 
-        JOptionPane.showOptionDialog(null,"You are awesome!","secret message",JOptionPane.YES_NO_CANCEL_OPTION,JOptionPane.INFORMATION_MESSAGE,null,null,0);
+        String[] responses = {"No, you're awesome","thank you","*blush*"};
+        ImageIcon icon = new ImageIcon("smile.jpeg");
+
+        JOptionPane.showOptionDialog(null,"You are awesome!","secret message",JOptionPane.YES_NO_CANCEL_OPTION,JOptionPane.INFORMATION_MESSAGE,icon,null,0);
 
 
     }
